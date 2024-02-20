@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
+         <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link" href="#about me">About Me</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
+            <a class="nav-link" href="https://luc-desig.github.io/My-resume/">My Resume</a>
+            </div>
+         </div>
+         </div>
+    </nav>
+<!-- Jumbotron -->
+<section id="home" class="gradient-background">
+    <div>
+        <div class="p-5 text-center">
+        <div class="container">
+            <h1 class="hfont text-body-emphasis">I'm Lucian</h1>
+            <p class="font col-lg-8 mx-auto mb-3 lead">
+                A Lifelong Learner & A Web Developer
+            </p>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- About Me -->
+<section id="about me" class="gradient-background">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Images/home.jpeg" class="profile-img d-block mx-lg-auto img-fluid" alt="picture of me" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+            <h1 class="hfont display-5 fw-bold text-body-emphasis lh-1 mb-3">Who am I?</h1>
+            <p class="font lead">Hello, My name is Lucian Buftea. I'm a self-taught web developer experienced in HTML, CSS, and design tools like Adobe Photoshop and Illustrator. With a background in customer service, I have excellent communication and problem-solving skills. Currently improving my skills through a web development course, I'm actively seeking opportunities to collaborate and apply my abilities. Let's connect and create awesome websites together!</p>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- Projects Cards -->
+  <section id="projects" class="gradient-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-4 mt-5 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/Tindog.png" class="card-img-top" alt="dog app">
+                    <div class="card-body">
+                    <h5 class="hfontc card-title">Tindog</h5>
+                    <p class="fontc card-text">Class Project to build a website with Boostrap.</p>
+                    <a href="https://luc-desig.github.io/TinDog-Project/" class="button btn btn-primary">Visit Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-4 mt-5 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/Mondrian.png" class="card-img-top" alt="art painting">
+                    <div class="card-body">
+                    <h5 class="hfontc card-title">Mondrian Project</h5>
+                    <p class="fontc card-text">Class Project to recreate an art piece with CSS grid.</p>
+                    <a href="https://luc-desig.github.io/Mondrian-Project/" class="button btn btn-primary">Visit Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 col-md-4 mt-5 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./Images/portfolio6.png" class="card-img-top" alt="portfolio">
+                    <div class="card-body">
+                    <h5 class="hfontc card-title">Portfolio Website</h5>
+                    <p class="fontc card-text">Designed&created a portfolio website with Bootstrap.</p>
+                    <a href="#" class="button btn btn-primary">Visit Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About me -->
+<section id="contact" class="gradient-background">
+    <div>
+        <div class="p-5 text-center">
+        <div class="container">
+            <h1 class="hfont text-body-emphasis">Contact me</h1>
+            <p class="font col-lg-8 mx-auto mb-5 lead">
+                You can find me at the following links:
+            </p>
+            <div class="d-grid gap-2">
+                <a href="https://luc-design.ro" class="button btn btn-primary" type="button" target="_blank">Website</a>
+                <a href="https://linkedin.com/in/lucian-buftea?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="button btn btn-primary" type="button" target="_blank">Linkedin</a>
+                <a href="https://www.behance.net/blucian" class="button btn btn-primary" type="button" target="_blank">Behance</a>
+                <a href="mailto:lucian.buftea94@gmail.com" class="button btn btn-primary" type="button" target="_blank">Send me an Email</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<div>
+    <footer>
+      <p class="footer text-center">© 2024 Lucian Buftea. All rights reserved.</p>
+    </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
